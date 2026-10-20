@@ -15,7 +15,7 @@ object TicketCounter {
 }
 
 class ParkingLot(val capacity: Int) {
-    private val spots = mutableMapOf<Int, Vehicle>() // spot number -> vehicle
+    private val spots = mutableMapOf<Int, Vehicle>()
     private val records = mutableListOf<ParkingRecord>()
 
     // Read-only copy
